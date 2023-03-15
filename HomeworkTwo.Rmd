@@ -22,13 +22,13 @@ opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
 **Question 2** Add the numbers 3 1 4 1 5 9 2 6 without *using the addition sign*.
 
 ```{r}
-# Write Your Answer Here!
+
 ```
 
 **Question 3** Create a vector named `x` containing the series -1, -0.9, ..., 0, 0.1, ..., 0.9, 1 and print the result.
 
 ```{r}
-# Write Your Answer Here!
+
 ```
 
 **Question 4** How do we get R to print the text "SBF!" 30 times without repeatingly typing it?
