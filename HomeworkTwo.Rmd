@@ -22,12 +22,16 @@ opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
 **Question 2** Add the numbers 3 1 4 1 5 9 2 6 without *using the addition sign*.
 
 ```{r}
-
+x <- c(3, 1, 4, 1, 5, 9, 2, 6)
+x
 ```
 
 **Question 3** Create a vector named `x` containing the series -1, -0.9, ..., 0, 0.1, ..., 0.9, 1 and print the result.
 
 ```{r}
+x <- c(-1:1)
+seq(-1, 1, 0.1)
+x
 
 ```
 
@@ -49,8 +53,9 @@ wizards <- c("Harry", "Ron", "Fred", "George", "Sirius")
 **Question 6** Print/extract the second element of the wizards vector.
 
 ```{r}
-wizards <- c(Harry = 4, Ron = 2, Fred = 5, George = 1, Sirius = 3)
 wizards
+wizards[2]
+
 ```
 
 **Question 7** Replace the names Fred, George and Sirius in the vector 'wizards' with the names Hermione, Ginny, and Malfoy.
@@ -64,7 +69,8 @@ wizards
 Name the elements of the `wizards` vector as **Lead**, **Friend**, **Friend**, **Wife** and **Rival**.Print the results.
 
 ```{r}
-wizards <- c("lead", "friend", "friend", "wife", "rival")
+
+wizards <- c("Harry= lead", "Ron = friend"," Hermione = friend", "Ginny = wife", "Malfoy = rival")
 wizards
 ```
 
